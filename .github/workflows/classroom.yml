@@ -31,6 +31,5 @@ jobs:
       uses: webtech-network/web-code-autograding/actions/reporter-grader-action@v1
       env:
         VALIDATE-GIT_RESULTS: "${{steps.validate-git.outputs.result}}"
-        VALIDATE-TXT_RESULTS: "${{steps.validate-txt.outputs.result}}"
       with:
         runners: "validate-git,validate-txt"
