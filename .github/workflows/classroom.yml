@@ -1,7 +1,6 @@
 name: Autograding Tests
 'on':
 - push
-- repository_dispatch
 permissions:
   checks: write
   actions: read
@@ -46,5 +45,4 @@ jobs:
       env:
         VALIDATE-GIT_RESULTS: "${{steps.validate-git.outputs.result}}"
       with:
-        runners: "validate-git,validate-txt"
-        token: ***
+        runners: validate-git,validate-txt
