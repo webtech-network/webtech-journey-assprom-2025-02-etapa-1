@@ -47,3 +47,4 @@ jobs:
         VALIDATE-GIT_RESULTS: "${{steps.validate-git.outputs.result}}"
       with:
         runners: "validate-git,validate-txt"
+        token: ***
