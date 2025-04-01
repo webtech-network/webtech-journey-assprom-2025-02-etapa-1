@@ -1,0 +1,17 @@
+{
+  "git": {
+    "requiredBranches": ["main"],
+    "minCommits": 1,
+    "forbidNoFFMerge": false,
+    "minMerges": 0,
+    "checkGitIgnore": false,
+    "requiredGitIgnoreEntries": [],
+    "requiredFiles": ["resumo.txt"]
+  },
+  "txt": {
+    "requiredFiles": ["resumo.txt"],
+    "minLines": 4,
+    "forbiddenTerms": ["lorem ipsum", "dummy text"],
+    "checkSpelling": false
+  }
+}
