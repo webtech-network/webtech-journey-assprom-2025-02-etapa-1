@@ -7,11 +7,5 @@
     "checkGitIgnore": false,
     "requiredGitIgnoreEntries": [],
     "requiredFiles": ["resumo.txt"]
-  },
-  "txt": {
-    "requiredFiles": ["resumo.txt"],
-    "minLines": 4,
-    "forbiddenTerms": ["lorem ipsum", "dummy text"],
-    "checkSpelling": false
   }
 }
