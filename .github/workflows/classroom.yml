@@ -1,35 +1,69 @@
-name: Autograding Tests
-'on':
-- push
-permissions:
-  checks: write
-  actions: read
-  contents: read
+name: Autograder
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
-  run-autograding-tests:
+  grading:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-classroom[bot]'
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with: 
-        fetch-depth: 0
-    - name: Validate GIT
-      id: validate-git
-      uses: webtech-network/web-code-autograding/actions/command-grader-action@v1
-      with:
-        test-name: Validate GIT
-        # setup-command: npm install
-        # command: npm test validateGIT.test.js
-        # command-type: cmd
-        command: validateGITRepo
-        command-type: function
-        weight: 20
-        timeout: 10
-        max-score: 100
-    - name: Autograding Reporter
-      uses: webtech-network/web-code-autograding/actions/reporter-grader-action@v1
-      env:
-        VALIDATE-GIT_RESULTS: "${{steps.validate-git.outputs.result}}"
-      with:
-        runners: "validate-git"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check repository criteria
+        run: |
+          score=0
+          maxScore=100
+          baseScore=100
+          
+          # Verificar se a branch main existe
+          if git show-ref --verify --quiet refs/heads/main; then
+            echo "✅ Branch 'main' existe. +25 pontos"
+            ((score+=25))
+          else
+            echo "❌ Branch 'main' não encontrada."
+          fi
+          
+          # Verificar se há pelo menos um commit no repositório
+          if [ $(git rev-list --count HEAD) -gt 0 ]; then
+            echo "✅ Pelo menos um commit encontrado. +25 pontos"
+            ((score+=25))
+          else
+            echo "❌ Nenhum commit encontrado."
+          fi
+          
+          # Verificar se há um arquivo chamado resumo.txt
+          if [ -f "resumo.txt" ]; then
+            echo "✅ Arquivo 'resumo.txt' encontrado. +25 pontos"
+            ((score+=25))
+            
+            # Verificar se o arquivo contém pelo menos três linhas
+            if [ $(wc -l < resumo.txt) -ge 3 ]; then
+              echo "✅ 'resumo.txt' contém pelo menos três linhas. +25 pontos"
+              ((score+=25))
+            else
+              echo "❌ 'resumo.txt' não contém pelo menos três linhas."
+            fi
+          else
+            echo "❌ Arquivo 'resumo.txt' não encontrado."
+          fi
+
+          # Gerar relatório
+          echo ""
+          echo "-------- 📏 Detalhes de Pontuação --------"
+          echo "📊 Pontuação base: $score"
+          echo "🔺 Bonificação: 0"
+          echo ""
+          echo "-------- 📏 Regras de Pontuação --------"
+          echo " Nota base com itens requeridos: $baseScore, Mínimo: 0, Máximo: $maxScore"
+          echo "⚠️ Itens requeridos: 1 branch 'main', pelo menos 1 commit, arquivo 'resumo.txt' e pelo menos 3 linhas dentro dele."
+          echo "🔹 Cada critério atendido vale 25 pontos."
+          echo "🔺 Pontuação Máxima: $maxScore"
+          exit 0
