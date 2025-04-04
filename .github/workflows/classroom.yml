@@ -11,8 +11,9 @@ on:
 
 jobs:
   grading:
+    permissions: write-all
     runs-on: ubuntu-latest
-
+    if: github.actor != 'github-classroom[bot]'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
