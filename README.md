@@ -32,7 +32,7 @@ Para reforçar o aprendizado, disponibilizamos materiais complementares:
 
 ## Atividade Prática
 
-Ao acessar o ambiente de trabalho fornecido, você deverá localizar e abrir o arquivo chamado "resumo.txt". Esse arquivo será utilizado para registrar, em dois parágrafos, o que você aprendeu nesta primeira etapa da jornada, abordando os principais pontos do conteúdo "Conhecendo o Mundo da Web".
+Ao acessar o ambiente de trabalho fornecido, você deverá localizar e abrir o arquivo chamado "resumo.txt". Esse arquivo será utilizado para registrar, em, no mínimo, 50 palavras, o que você aprendeu nesta primeira etapa da jornada, abordando os principais pontos do conteúdo "Conhecendo o Mundo da Web".
 
 Após finalizar o resumo, siga as instruções dos materiais fornecidos para enviá-lo corretamente. O envio será validado para garantir que todas as etapas tenham sido concluídas conforme o esperado.
 
@@ -49,7 +49,7 @@ A entrega será validada por meio do GitHub Classroom, garantindo que todas as e
 ###### Os seguintes aspectos serão avaliados:
 
 - ✅ Arquivo "resumo.txt" presente dentro dos arquivos.
-- ✅ Resumo de dois parágrafos concluído.
+- ✅ Resumo de, no mínimo, 50 palavras.
 
 Aproveite essa experiência para aprender sobre uma nova ferramenta e conhecer mais sobre os conteúdos!
 
