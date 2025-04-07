@@ -15,21 +15,6 @@ Nesta atividade, trabalharemos o desenvolvimento das seguintes habilidades:
 - Aprendizado sobre as ferramentas GitHub Classroom e GitHub Codespace.
 - Capacidade de síntese de informações sobre o conteúdo ensinado.
 
-## Conhecimento envolvido
-
-Para reforçar o aprendizado, disponibilizamos materiais complementares:
-
-### 📌 Conteúdo Básico
-
-- Como usar o Github Classroom e o Github Codespace?
-- Conteúdo 1
-- Conteúdo 2
-
-### 📌 Conteúdo Extra
-
-- Conteúdo 1
-- Conteúdo 2
-
 ## Atividade Prática
 
 Ao acessar o ambiente de trabalho fornecido, você deverá localizar e abrir o arquivo chamado "resumo.txt". Esse arquivo será utilizado para registrar, em, no mínimo, 50 palavras, o que você aprendeu nesta primeira etapa da jornada, abordando os principais pontos do conteúdo "Conhecendo o Mundo da Web".
