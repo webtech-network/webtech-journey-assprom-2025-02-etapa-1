@@ -1,43 +1,54 @@
-Para darmos início a essa jornada de aprendizado, vamos conhecer nosso ambiente de trabalho e explorar um pouco do conhecimento necessário para esta etapa. Como parte desse processo, propomos um desafio prático: elaborar um pequeno resumo, em dois parágrafos, sobre o que foi aprendido até aqui. Esse resumo deverá ser enviado pelo GitHub Classroom, nosso ambiente de trabalho oficial!
+# Desafio de Conhecimento: Introdução ao GitHub Classroom e GitHub Codespace
 
-## Passo a passo para acessar o ambiente de trabalho:
-
-- Crie uma conta na plataforma GitHub: https://github.com/
-- Acesse o link do GitHub Classroom, nosso ambiente de trabalho: [link]
-- Entre no link do seu projeto e abra o GitHub Codespace.
-
-Após seguir esses passos, quando visualizar uma tela semelhante à imagem abaixo, você estará pronto para iniciar a tarefa!
-
-## Habilidades a serem desenvolvidas
-
-Nesta atividade, trabalharemos o desenvolvimento das seguintes habilidades:
-
-- Aprendizado sobre as ferramentas GitHub Classroom e GitHub Codespace.
-- Capacidade de síntese de informações sobre o conteúdo ensinado.
+Bem-vindo à nossa jornada de aprendizado! Neste desafio, você será apresentado ao **GitHub Classroom** e **GitHub Codespace**, ferramentas essenciais para o nosso desenvolvimento de atividades colaborativas e práticas. Vamos explorar um pouco do conhecimento necessário para essa etapa, com um desafio prático que você deve concluir dentro deste ambiente.
 
 ## Atividade Prática
 
-Ao acessar o ambiente de trabalho fornecido, você deverá localizar e abrir o arquivo chamado "resumo.txt". Esse arquivo será utilizado para registrar, em, no mínimo, 50 palavras, o que você aprendeu nesta primeira etapa da jornada, abordando os principais pontos do conteúdo "Conhecendo o Mundo da Web".
+A atividade principal é elaborar um **resumo de dois parágrafos** sobre o que você aprendeu até aqui. Este resumo deverá ser adicionado ao arquivo `resumo.txt` dentro do GitHub Codespace. O resumo deve abordar os seguintes pontos:
 
-Após finalizar o resumo, siga as instruções dos materiais fornecidos para enviá-lo corretamente. O envio será validado para garantir que todas as etapas tenham sido concluídas conforme o esperado.
+1. **Principais Ferramentas Apresentadas:**
+   - GitHub
+   - GitHub Classroom
+   - GitHub Codespace
+
+2. **Conteúdos Abordados:**
+   - Como usar o GitHub Classroom e o GitHub Codespace.
+   - A importância dessas ferramentas no ambiente de desenvolvimento colaborativo.
+
+### Instruções Detalhadas para Envio
+
+Após realizar o resumo, siga estas etapas para enviar sua tarefa corretamente:
+
+1. **Abra o arquivo "resumo.txt"** dentro do seu Codespace.
+2. **Escreva o seu resumo** de dois parágrafos, conforme o que foi solicitado.
+3. **Comite e envie** o arquivo para o repositório do GitHub Classroom.
+
+Certifique-se de que o arquivo **"resumo.txt"** esteja presente no repositório ao final da atividade.
+
+## Habilidades a Serem Desenvolvidas
+
+Ao concluir essa atividade, você terá desenvolvido as seguintes habilidades:
+
+- **Uso do GitHub Classroom e GitHub Codespace**: Aprendizado sobre como essas ferramentas funcionam no contexto de trabalho colaborativo.
+- **Capacidade de Síntese**: Habilidade para sintetizar o que foi aprendido e registrar de forma objetiva em um resumo.
+
+---
 
 ## Ferramentas Utilizadas
 
-- GitHub: Armazenamento das atividades feitas
-- Github Classroom: Colaboração e determinação das tarefas.
-- Github Codespace: Uso do Git e Github de forma remota no navegador.
+- **GitHub**: Plataforma para armazenamento do seu código e atividades.
+- **GitHub Classroom**: Ambiente de colaboração onde as tarefas são determinadas e entregues.
+- **GitHub Codespace**: Ambiente de desenvolvimento remoto para realizar suas atividades diretamente no navegador.
+
+---
 
 ## Critérios de Avaliação
 
-A entrega será validada por meio do GitHub Classroom, garantindo que todas as etapas foram concluídas corretamente. 
+A entrega será validada com base nos seguintes critérios:
 
-###### Os seguintes aspectos serão avaliados:
+- ✅ **Arquivo "resumo.txt"** presente dentro dos arquivos.
+- ✅ **Resumo de dois parágrafos** concluído de forma clara e objetiva.
 
-- ✅ Arquivo "resumo.txt" presente dentro dos arquivos.
-- ✅ Resumo de, no mínimo, 50 palavras.
+---
 
-Aproveite essa experiência para aprender sobre uma nova ferramenta e conhecer mais sobre os conteúdos!
-
-Bom desafio! 🚀
-
-
+Boa sorte e aproveite a experiência de aprender novas ferramentas! 🚀
